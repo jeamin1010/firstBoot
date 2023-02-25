@@ -13,5 +13,5 @@
             transaction-manager="transactionManager" mode="proxy"
             proxy-target-class="false" />
 
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"></bean>
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"/>
 </beans>
