@@ -2,13 +2,9 @@ package com.toy.pro.domain;
 
 import lombok.*;
 
-@Getter
-@ToString
-@Setter
-@AllArgsConstructor
-@NoArgsConstructor
+@Data
 public class boardDTO {
-    //eneity/테이블과 일치하는 요소
+    //eneity 테이블과 일치하는 요소
     private int vSeqId;
     private String bName;
     private String bTitle;
